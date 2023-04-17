@@ -19,12 +19,12 @@
 </p>
 
 ## Integrantes
-- <a href="https://www.linkedin.com/in/vthayashi/">Naruto</a>
-- <a href="https://www.linkedin.com/in/vthayashi/">Saitama</a>
-- <a href="https://www.linkedin.com/in/vthayashi/">Goku</a>
-- <a href="https://www.linkedin.com/in/vthayashi/">Charmander</a>
-- <a href="https://www.linkedin.com/in/vthayashi/">Squirtle</a>
-- <a href="https://www.linkedin.com/in/vthayashi/">Bulbasaur</a>
+- Dayllan de Souza Alho
+- Eric Tachdjian
+- Gabriela de Morais da Silva
+- Giovanna Furlan Torres
+- Lucas de Britto Vieira
+- Michel Mansur
 
 ## 📜 Descrição
 
