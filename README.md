@@ -8,14 +8,14 @@
 
 ## Empresa
 
-<p align="center">
+<p align="left">
 <a href= "https://www.btgpactual.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Btg-logo-blue.svg" alt="BTG" border="0" width="200"></a>
 </p>
   
-## Nome do Grupo
+##  Equipe NaturalFive
 
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/TBD-W.svg" alt="Logo do Grupo" border="0" width="150">
+<p align="left">
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/img/Logo%20-%20M6%20-%20NaturalFive.png" alt="Logo do Grupo" border="0" width="200">
 </p>
 
 ## Integrantes
