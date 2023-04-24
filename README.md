@@ -18,7 +18,7 @@
 
 ## 📝 Descrição
 
-Inserir descrição do projeto
+Inserir a descrição do projeto.
 
 ## 📁 Estrutura de pastas
 
