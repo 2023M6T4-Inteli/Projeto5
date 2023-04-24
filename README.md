@@ -1,98 +1,83 @@
 # Inteli - Instituto de Tecnologia e Liderança 
 
 <p align="center">
-<a href= "https://www.inteli.edu.br/"><img src="https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0" width="200"></a>
+<a href= "https://www.inteli.edu.br/"><img src="https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# IA para Marketing: Monitoramento de campanhas utilizando processamento de linguagem natural (PLN)
+# APP Linguagem Natural
 
-## Empresa
+## NaturalFive
 
-<p align="left">
-<a href= "https://www.btgpactual.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Btg-logo-blue.svg" alt="BTG" border="0" width="200"></a>
-</p>
-  
-##  Equipe NaturalFive
+### Integrantes: 
+- <a href="https://www.linkedin.com/in/dayllan-alho/">Dayllan de Souza Alho</a>
+- <a href="https://www.linkedin.com/in/erictach/">Eric Tachdjian</a> 
+- <a href="https://www.linkedin.com/in/gabriela-de-morais-da-silva-467b29238/">Gabriela de Morais da Silva</a> 
+- <a href="https://www.linkedin.com/in/giovanna-furlan-torres-378316182/">Giovanna Furlan Torres</a>
+- <a href="https://www.linkedin.com/in/lucas-britto-376665208/">Lucas de Britto Vieira</a>
+- <a href="https://www.linkedin.com/in/michel-mansur-26006a219/">Michel Mansur</a> 
 
-<p align="left">
-<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/img/Logo%20-%20M6%20-%20NaturalFive.png" alt="Logo do Grupo" border="0" width="200">
-</p>
+## 📝 Descrição
 
-## Integrantes
-- Dayllan de Souza Alho
-- Eric Tachdjian
-- Gabriela de Morais da Silva
-- Giovanna Furlan Torres
-- Lucas de Britto Vieira
-- Michel Mansur
+Inserir a descrição do projeto.
 
-## 📜 Descrição
+## 📁 Estrutura de pastas
 
-Descrição curta sobre o que seu projeto faz.
+|--> assets<br>
+  &emsp;| --> imagens <br>
+  &emsp;| --> vídeos <br>
+|--> documentos<br>
+  &emsp;| --> apresentação <br>
+  &emsp;| --> outros <br>
+  &emsp;| T4_G5_V1_PLN_Document.pdf<br>
+  &emsp;| T4_G5_V1_PLN_Document.docx<br>
+|--> src<br>
+  &emsp;|--> Código Fonte<br>
+  &emsp;|--> Notebook<br>
+  &emsp;|--> readme.md<br>
+| readme.md<br>
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-## 📹 Demonstração do Projeto
+- <b>assets</b>: aqui estão os arquivos relacionados a parte gráfica do projeto, ou seja, as imagens e vídeos que os representam (O logo do grupo pode ser adicionado nesta pasta).
 
-Coloque aqui os links de vídeos de demonstração do seu projeto.
+- <b>documentos</b>: aqui estão todos os documentos do projeto, incluindo o manual de instruções (se aplicável). Há também uma pasta denominada <b>outros</b> onde estão presentes outros documentos complementares.
 
-## 🛠 Estrutura de pastas
+- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto, incluindo os notebooks, backend e frontend se aplicáveis.
 
--Raiz<br>
-|-->apresentacoes<br>
-|-->docs<br>
-  &emsp;|-->antigos<br>
-|-->videos<br>
-|-->src<br>
-|readme.md<br>
+- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+## 🔧 Instalação
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+Acrescentar as informações necessárias para instalação do projeto, assim como as versões utilizadas (uso do projeto).
 
-Há também 4 pastas que seguem da seguinte forma:
 
-<b>apresentacoes</b>: Aqui estarão todas as apresentações do projeto.
+## 💻 Configuração de Desenvolvimento
 
-<b>docs</b>: Aqui estarão todos os documentos do projeto. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
+Acrescentar as informações necessárias para configuração de desenvolvimento do projeto (modificação do projeto).
 
-<b>src</b>: Nesta pasta irá um README com todos os links dos vídeos de demonstração do projeto.
-
-<b>src</b>: Nesta pasta irá todo o código fonte do projeto, pronto para para ser baixado e modificado.
-
-## 🛠 Instalação
-
-Insira aqui as instruções para instalação (uso) do projeto.
-
-## 💻 Configuração para Desenvolvimento
-
-Insira aqui as instruções para desenvolvimento (modificação) do projeto.
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui (segue exemplo abaixo).
+* 0.5.0 - XX/XX/2023
+    * Quinta entrega
+* 0.4.0 - XX/XX/2023
+    * Quarta entrega
+* 0.3.0 - XX/XX/2023
+    * Terceira entrega
+* 0.2.0 - XX/XX/2023
+    * Segunda entrega 
+* 0.1.0 - XX/XX/2023
+    * Primeira entrega 
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
-
+	
 ## 📋 Licença/License
 
-Licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023M6T4-Inteli">App Linguagem Natural</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/InteliProjects">Inteli</a>, <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023M6T4-Inteli/Projeto5">NaturalFive</a>: <a href="https://www.linkedin.com/in/dayllan-alho">Dayllan de Souza Alho</a>, <a href="https://www.linkedin.com/in/erictach/">Eric Tachdjian</a>, <a href="https://www.linkedin.com/in/gabriela-de-morais-da-silva-467b29238/">Gabriela de Morais da Silva</a>, <a href="https://www.linkedin.com/in/giovanna-furlan-torres-378316182/">Giovanna Furlan Torres</a>, <a href="https://www.linkedin.com/in/lucas-britto-376665208/">Lucas de Britto Vieira</a>, <a href="https://www.linkedin.com/in/michel-mansur-26006a219/">Michel Mansur</a>,
+is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+
+
 
 ## 🎓 Referências
 
-Aqui estão as referências usadas no projeto (exemplos abaixo).
+Acrescentar as referências utilizadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
