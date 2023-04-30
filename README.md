@@ -18,7 +18,7 @@
 
 ## 📝 Descrição
 
-Inserir a descrição do projeto.
+O BTG Pactual enfrenta o desafio de otimizar suas estratégias de marketing digital e entender melhor o comportamento e preferências dos consumidores nas redes sociais. Com o aumento do investimento em marketing digital e a crescente utilização das redes sociais, a análise de dados de mídia social é fundamental para obter informações relevantes e tomar decisões de negócios mais eficazes. O objetivo é utilizar PLN para rastrear dados e analisar a receptividade dos usuários às campanhas no Instagram do banco, identificar palavras-chave nos comentários e direcionar novas campanhas baseadas nos interesses dos consumidores.
 
 ## 📁 Estrutura de pastas
 
@@ -66,8 +66,8 @@ Acrescentar as informações necessárias para configuração de desenvolvimento
     * Terceira entrega
 * 0.2.0 - XX/XX/2023
     * Segunda entrega 
-* 0.1.0 - XX/XX/2023
-    * Primeira entrega 
+* 0.1.0 - 28/04/2023
+    * Primeira entrega : Documentação Análise de Negócios e UX
 
 	
 ## 📋 Licença/License
@@ -79,5 +79,13 @@ is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=choos
 
 ## 🎓 Referências
 
-Acrescentar as referências utilizadas no projeto.
+BANCO CENTRAL DO BRASIL (Brasil).Tarifas Bancárias. [S. l.], 2023. Disponível em: https://www.bcb.gov.br/estabilidadefinanceira/tarifas_bancarias. Acesso em: 25 abr. 2023. 
+
+BTG PACTUAL (São Paulo - Brasil).Relatório Anual 2021: Negócios, estratégia e desempenho. Com efetiva integração ESG.. [S. l.], 2021. Disponível em: https://static.btgpactual.com/media/rs2021-btgpactual-vf1.pdf. Acesso em: 25 abr. 2023. 
+
+JUROS%BAIXO (Brasil).Compare as tarifas de 6 bancos: conta corrente. [S. l.], 17 dez. 2018. Disponível em: https://jurosbaixos.com.br/conteudo/compare-as-tarifas-de-6-bancos-para-abrir-uma-conta-corrente/. Acesso em: 24 abr. 2023. 
+
+SIQUEIRA, Andressa. Conta corrente: quais são os melhores bancos para abrir conta? Descubra aqui!. [S. l.], 20 abr. 2021. Disponível em: https://blog.magnetis.com.br/conta-corrente/. Acesso em: 24 abr. 2023. 
+
+TORRES, Vitor.O que é ROI?: como calcular retorno sobre o investimento?. Contabilizei.blog, 11 out. 2022. Disponível em: https://www.contabilizei.com.br/contabilidade-online/o-que-e-roi-como-calcular-retorno-sobre-o-investimento/. Acesso em: 24 abr. 2023. 
 
