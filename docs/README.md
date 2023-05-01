@@ -1,14 +1,10 @@
 # Documento Principal do Projeto
 
-Descrição sucinta do projeto, com descrição do problema, do objetivo e da solução em linhas gerais.
+<a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V1_PLN_Document.pdf">Descrição do Projeto</a>
 
-## (Sprint 1) Entendimento do Negócio
+## (Sprint 1) Entendimento do Negócio e Entendimento da Experiência do Usuário
 
-Preencher conforme a descrição do artefato na Adalove.
-
-## (Sprint 1) Entendimento da Experiência do Usuário
-
-Preencher conforme a descrição do artefato na Adalove.
+<a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V1_PLN_Document.pdf">Entrega Sprint 1 - Negócios e UX</a>
 
 ## (Sprint 2) Modelo de Bag of Words (IPYNB)
 
