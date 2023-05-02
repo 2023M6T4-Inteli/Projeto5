@@ -1,5 +1,13 @@
 # Documento Principal do Projeto
 
+# OBSERVAÇÃO:
+
+Recomenda-se fortemente a correção e/ou leitura do documento pelo <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V1_PLN_Document.pdf">T4_G5_V1_PLN_Document.pdf</a>, onde apresenta-se o conteúdo formatado e estruturado, mediante os critérios do escritório de projeto.
+
+# Controle de documentação
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Controle%20de%20Documento.png"> 
+
 # 1. Introdução
 
 As redes sociais estão cada dia mais presentes no cotidiano dos indivíduos, e com essa crescente popularidade as empresas precisam se adequar a esse ambiente. Tais plataformas tornam possível a conexão entre as organizações e seus clientes, sendo um ponto alto para receber feedbacks sobre seus produtos e serviços. Antes, as organizações precisavam se limitar a pesquisas de mercado e estudos de opinião para entender as necessidades e desejos de seus clientes. Hoje, mais de 4,7 bilhões de pessoas têm acesso a essas redes, o que representa 59% da população mundial. Dito isso, o banco BTG Pactual, percebeu a importância dessa tendência e decidiu adotar uma abordagem inovadora para coletar e analisar os comentários dos usuários sobre suas campanhas.</p>
@@ -54,7 +62,7 @@ Apresenta-se nessa sessão as descrições das análises voltadas ao desenvolvim
 
 A análise SWOT é uma ferramenta que possibilita a empresa a realizar análises de cenário ou de ambiente, sejam eles internos ou externos. Assim, é demonstrado as formas como ela atua no setor, suas fraquezas e forças (Iniciativas Internas), oportunidades e ameaças (inciativas externas). A Figura 1, exibe  uma imagem demonstrativa das quatro áreas que compõem a SWOT. 
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/SWOT.png"> 
 Fonte: Autores
 
 I. Pontos Fortes: <br>
@@ -81,20 +89,20 @@ IV. Ameaças:  <br>
 
 A principal vantagem apresentada pela proposta de valor é conseguir auxiliar a empresa a compreender melhor os seus clientes e funcionários. Na Figura 2, é ilustrada a proposta construída para o BTG Pactual.
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Proposta%20de%20valor.png"> 
 Fonte: Autores
 
 ## 3.3 Matriz de Risco
 
 É uma das principais ferramentas na análise de negócios, utilizada para o gerenciamento de riscos operacionais existentes na empresa. A Figura 3, ilustra a construção da matriz de risco para o projeto. 
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Matriz%20de%20Risco.png"> 
 Fonte: Autores
 
 Mitigar os riscos é essencial para garantir a estabilidade e a eficiência da do time, com isso, segue o plano criado entre os membros para prevenir tais riscos, na tabela 2 abaixo. 
 
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Tabela%20-%20Mitiga%C3%A7%C3%A3o%20de%20Risco.png"> 
 Fonte: Autores
 
 
@@ -105,7 +113,7 @@ A Matriz de Oceano Azul é uma estratégia de negócios que ajuda a empresa a cr
 Com base na solução proposta da Natural five, realizou-se a matriz de “oceano azul”, com base em 6 concorrentes, IBM Watson Natural Language Understandinge, Google Cloud Natural Language, Google Cloud AutoML, Amazon Comprehend, Microsoft Azure Text Analytics e Python Natural Language Toolkit (NLTK). Apresenta-se na tabela 3 abaixo, os quesitos avaliados. 
 
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Tabela%20Oceano%20Azul.png"> 
 Fonte: Autores
 
 Abaixo se apresenta a descrição dos 8 atributos chave, sendo eles:
@@ -129,7 +137,7 @@ Ao comparar com as grandes empresas de tecnologia que possuem soluções de PLN,
 
 Esses atributos foram escolhidos com base na importância que o BTG Pactual atribui aos modelos de análise de linguagem natural como usar a tecnologia para facilitar esse processo de forma mais prática e barata, mantendo sempre uma alta qualidade. Apresenta-se abaixo um gráfico com a representação visual da tabela apresentada, na figura 4. 
 
-
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Gr%C3%A1fico%20Oceano%20Azul.png"> 
 Fonte: Autores
 
 Analisando o gráfico é possível perceber que a solução proposta do “Natural Five” se sobressai nas categorias de “Maior usabilidade” e “Mais integrações” ambas com nota 10/10. Por outro lado a solução se igualou com outras opções de mercado nas categorias “Maior praticidade” com nota 9/10 e “Maior custo-benefício” com nota 8/10 (ambas as notas podem ser consideradas altas). Porém a categoria “Credibilidade” é a única onde a Natural Five sai com menor pontuação "6/10".
@@ -180,6 +188,18 @@ Responsável pela definição do objetivo principal do produto e como ele se enc
 
 Definição das características principais do produto, especificando o que ele É e o que NÃO É, e o que ele FAZ e o que NÃO FAZ. Garantindo que todas as partes interessadas tenham uma compreensão comum do produto e evita mal-entendidos. Nas imagens 5, 6, 7 e 8 abaixo, exibe-se os critérios definidos para o produto, incluindo as condições as quais ele não atende.
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/%C3%A9.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/n%C3%A3o%20%C3%A9.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/faz.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/n%C3%B5a%20faz.png"> 
+Fonte: Autores
+
 ## 4.3 Brainstorming de Funcionalidades
 Utilizado para gerar ideias de funcionalidades que o produto deve ter. Buscando garantir que o produto atenda às necessidades dos usuários e do negócio. Abaixo se exibe os Clusters criados para o mapeamento de funcionalidades. 
 <br>
@@ -211,13 +231,22 @@ Utilizado para gerar ideias de funcionalidades que o produto deve ter. Buscando 
 
 Utilizado para revisar as funcionalidades geradas na etapa anterior sob as perspectivas técnicas, de negócios e de experiência do usuário (UX). Buscando garantir que as funcionalidades sejam viáveis do ponto de vista técnico, agreguem valor ao negócio e proporcionem uma boa experiência ao usuário. Na figura 9 abaixo, exibe-se a estrutura criada e categorizada entre esforço (E), negócio ($) e UX (<3) para o projeto. 
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/tecnica%20UX.png"> 
+Fonte: Autores
+
 ## 4.6 Sequenciador
 
 Técnica utilizada para priorizar as funcionalidades e requisitos do produto. Ele é uma ferramenta de classificação simples que permite que as equipes definam a ordem de execução das funcionalidades com base em critérios pré-determinado, na figura 10 abaixo, exibe-se a estrutura de sequência criada para a solução. 
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/sequenciador.png"> 
+Fonte: Autores
+
 ## 4.7 Canvas MVP
 
 Ferramenta para estimar qual é o produto, com o menor conjunto de recursos que ainda atende às necessidades básicas dos clientes. Além de determinar como testar e validar o produto com os clientes. Na figura 11 abaixo se apresenta o Canvas MVP criado para a solução.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/canvas%20mvp.png"> 
+Fonte: Autores
 
 ## (Sprint 1) Entendimento da Experiência do Usuário
 
@@ -229,6 +258,15 @@ Nesta sessão, apresenta-se a análise de experiência do usuário, a qual atrav
 
 As personas do projeto são baseadas em 3 setores principais, sendo eles, 1) Analista de Automação; 2) Analista de Marketing; 3) Analista de produto. Estes representam a ideia de cliente ideal, porém fictícia, e os dados apresentados (comportamentos e características), são equivalentes ao contexto em que o BTG Pactual se encontra. As Figuras 12, 13 e 14 exibem as personas construídas. 
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/persona%201.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/persona%202.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/persona%203.png"> 
+Fonte: Autores
+
 ## 5.2 Jornada do Usuário
 
 A jornada do usuário construída consiste na representação das etapas principais que envolvem 1) Análise dos dados das campanhas; 2) Visualização da análise e melhoria nas campanhas de marketing; e 3) Visualização da análise e melhoria na criação e/ou modificação dos produtos e serviços do banco. Divididas em 3 estruturas, exibidas nas figuras 15, 16 e 17 sendo elas respectivamente: <br> 
@@ -236,24 +274,55 @@ A jornada do usuário construída consiste na representação das etapas princip
     &emsp; 2. Analista de Marketing;  <br> 
     &emsp; 3. Analista de produto.  <br> 
     
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/jornada%201.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/jornada%202.png"> 
+Fonte: Autores
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/jornada%203.png"> 
+Fonte: Autores
+    
 ## 5.3 User Stories
 
 Pode-se definir User Stories como descrições simplificadas das funcionalidades possíveis que o usuário possui e deseja dentro da aplicação, escrita com a visão dele. Além de transparecer como o sistema espera alcançar tais objetivos. As tabelas abaixo estão divididas em 6 partes: Número, Título, Personas, História, Critérios de Aceitação e Testes de Aceitação. O número e título servem para identificação, já as personas servem para associar a quem a história pertence. Os dois últimos tópicos descrevem quais são os critérios que aquele usuário deve passar no sistema para realizar a ação descrita na “história”, já o teste diz como o sistema deve agir de acordo com o critério estipulado. Nas tabelas 4,5,6,7,8 e 9 abaixo. 
 
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%201.png"> 
+Fonte: Autores
+
 
 A primeira User Story está direcionada para a primeira etapa a ser cumprida pelo time de desenvolvimento, focado em processamento dos dados, com sua leitura, limpeza e correção para que sejam interpretadas por uma IA, partindo assim para a segunda User Story. 
 
 
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%202.png"> 
+Fonte: Autores
+
 A segunda User Story tem como objetivo a implementação de uma interface gráfica de usuário para exibir os resultados gerados pela IA a partir dos dados processados na primeira User Story. Essa interface deve ser intuitiva e fácil de usar, permitindo que os usuários possam visualizar e interagir com as informações de forma clara e objetiva. Para isso, o time de desenvolvimento trabalhará na construção de uma interface com recursos de seleção e visualização dos dados, a fim de atender às necessidades dos usuários finais. 
+
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%203.png"> 
+Fonte: Autores
 
 A terceira User Story tem como objetivo construir um modelo de análise de sentimento e palavras-chave automatizado para os comentários do Instagram do BTG Pactual, a fim de fornecer insights valiosos para o analista de produto. O analista de automação será o responsável por criar esse modelo. Nossa interface realizará a análise de sentimento e demonstrar quais são as palavras-chaves, indicando para quem for utilizar quais são elas. Os testes de aceitação incluem verificação da correta apresentação das informações e uso dos modelos definidos. 
 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%204.png"> 
+Fonte: Autores
+
 A quarta User Story voltada para o analista de marketing, busca permitir a análise por meio de uma interface que permita a seleção de campanhas baseada nos dados disponibilizados na base. Além disso, a interface deve apresentar gráficos e estatísticas para auxiliar na visualização, garantindo uma análise mais eficiente e precisa. Os critérios de aceitação dessa User Story garante que a plataforma apresente feedback adequado ao usuário, informando caso a seleção escolhida não exista e permitindo a visualização dos resultados de maneira clara e objetiva. 
+
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%205.png"> 
+Fonte: Autores
 
 Na quinta User Story, o analista de produto deseja analisar o rendimento de cada campanha de marketing para obter insights do produto, além de realizar uma análise de sentimentos e palavras-chave. É importante que a interface permita a seleção de várias opções de campanha e produto ao mesmo tempo na mesma pesquisa.
 
 O critério de aceitação estabelece que a interface deve permitir a seleção de várias opções de campanha e produto na mesma pesquisa, e caso isso não seja possível, deve-se retornar um erro e o processo deve ser revisto. Portanto, a interface deve ser capaz de lidar com seleções múltiplas de campanha e produto e apresentar resultados precisos e coerentes com os critérios de aceitação estabelecidos.
+
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/user%206.png"> 
+Fonte: Autores
 
 A sexta User Story se trata da necessidade do analista de marketing em ter uma plataforma que permita selecionar a visualização de produtos e sentimentos para analisar o andamento de uma campanha de marketing. O critério de aceitação envolve a seleção da forma de visualização e a apresentação das informações de forma adequada. O time de desenvolvimento trabalhará para atender essas necessidades e garantir a satisfação do usuário final.
 
@@ -264,8 +333,32 @@ A partir das definições de todas as User Stories definidas para este projeto, 
 # 6. Arquitetura Macro da Solução
 
 A arquitetura macro da solução, apresenta os blocos responsáveis pelo funcionamento da solução, independente da tecnologia que será adotada ao desenvolvimento, comunicando-se entre si, apresentam a estrutura e ligações mínimas que a solução tem que exibir para ter o funcionamento previsto ao MVP. Abaixo na Figura 18, encontra-se a visualização inicial prevista da arquitetura macro. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/arquiteturaMacro.png"> 
+Fonte: Autores
   
 A arquitetura macro proposta, conta com 5 módulos, sendo eles 1) Usuário; 2) Interface; 3) back-end; 4) Banco de Dados; e 5) Notebook. Nos módulos Usuário e Interface, apresenta-se as personas do projeto em conjunto com as interfaces as quais terão acesso no projeto. O back-end é o módulo responsável por realizar o gerenciamento das rotas de consulta da aplicação, além das que são necessárias para acessar o modelo e suas análises. No módulo Banco de Dados, será localizado todos os dados dos arquivos CSV recebido da interface, utilizado para guardar novos dados e fornecê-los para o treinamento do modelo, quando requisitado. Por fim, o módulo do Notebook é responsável pelo processamento, implementação e avaliação do modelo de análise dos comentários e sentimentos da aplicação, obtendo os dados do banco, transformando em CSV, realizando os procedimentos necessários e exportando com uma biblioteca para o back-end que em conjunto com a interface, exibe para os usuários os resultados, em um dashboard. 
+
+## Referências (Sprint 1)
+
+# 9. Referências
+
+BANCO CENTRAL DO BRASIL (Brasil).Tarifas Bancárias. [S. l.], 2023. Disponível em: 
+https://www.bcb.gov.br/estabilidadefinanceira/tarifas_bancarias. Acesso em: 25 abr. 2023. 
+
+BTG PACTUAL (São Paulo - Brasil).Relatório Anual 2021: Negócios, estratégia e desempenho. Com efetiva 
+integração ESG.. [S. l.], 2021. Disponível em: https://static.btgpactual.com/media/rs2021-btgpactual-vf1.pdf. 
+Acesso em: 25 abr. 2023.
+
+JUROS%BAIXO (Brasil).Compare as tarifas de 6 bancos: conta corrente. [S. l.], 17 dez. 2018. Disponível 
+em: https://jurosbaixos.com.br/conteudo/compare-as-tarifas-de-6-bancos-para-abrir-uma-conta-corrente/. 
+Acesso em: 24 abr. 2023. 
+
+SIQUEIRA, Andressa. Conta corrente: quais são os melhores bancos para abrir conta? Descubra aqui!. [S. 
+l.], 20 abr. 2021. Disponível em: https://blog.magnetis.com.br/conta-corrente/. Acesso em: 24 abr. 2023. 
+
+TORRES, Vitor.O que é ROI?: como calcular retorno sobre o investimento?. Contabilizei.blog, 11 out. 2022. 
+Disponível em: https://www.contabilizei.com.br/contabilidade-online/o-que-e-roi-como-calcular-retorno-sobreo-investimento/. Acesso em: 24 abr. 2023
 
 ## (Sprint 2) Modelo de Bag of Words (IPYNB)
 
