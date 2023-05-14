@@ -360,16 +360,67 @@ l.], 20 abr. 2021. Disponível em: https://blog.magnetis.com.br/conta-corrente/.
 TORRES, Vitor.O que é ROI?: como calcular retorno sobre o investimento?. Contabilizei.blog, 11 out. 2022. 
 Disponível em: https://www.contabilizei.com.br/contabilidade-online/o-que-e-roi-como-calcular-retorno-sobreo-investimento/. Acesso em: 24 abr. 2023
 
-## (Sprint 2) Modelo de Bag of Words (IPYNB)
+# (Sprint 2) Modelo de Bag of Words (IPYNB)
 
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
-## (Sprint 2) Documentação do Modelo de Bag of Words
+# (Sprint 2) Documentação do Modelo de Bag of Words
 
-# Análise de dados
+## Compreensão dos dados
 
-Essa sessão apresenta a análise preliminar do padrões, tendências e relações identificadas nos dados por meio de gráficos. Destaca-se os principais achados e insights obtidos a partir dos gráficos, sua análise e significado. 
+As sessões abaixo apresenta o conjunto de dados trabalhado, seus principais atributos, descrições e análises estatísticas.
 
+## Descrição dos dados utilizados
+
+Neste tópico apresenta-se os dados disponibilizados na “2-base_10052023”. A base de dados a ser trabalhada foi disponibilizada pela empresa BTG Pactual, possuindo 12355 linhas de conteúdo. Na tabela 10 abaixo, é descrita os principais atributos, suas descrições e tipos da planilha.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/Descricao_dados_utilizados.png">
+Fonte: Autores
+
+## Descrição dos conjuntos de dados
+
+Abaixo apresenta-se a descrição dos riscos e contingências relacionados aos dados:
+
+- Os dados não oferecem grandes riscos de falta de confiabilidade, isto se deve ao fato de todos os dados serem coletados e disponibilizados pela própria empresa. Ou seja, a chance de serem falsos ou imprecisos é extremamente baixa, portanto de alta qualidade. Eles cobrem todos os aspectos que o parceiro considerou importante para o desenvolvimento do projeto, já que eles selecionaram os dados a serem repassados.
+
+## Preparação dos dados
+
+Nesta seção, colocou-se em prática a análise exploratória dos dados fornecidos pela empresa, de acordo com a execução proposta pelo modelo CRISP-DM, a fim de tornar nossa base de dados mais adequada para o sistema de processamento de linguagem natural para análise de sentimentos. 
+
+### Exclusão de Colunas não utilizadas
+
+Nesta sessão, descrevemos as colunas relevantes selecionadas para o modelo de análise de sentimentos, como data de publicação, autor, texto, sentimento e tipo de interação. Também explicamos por que colunas como anomalia, probabilidade de anomalia, link do post, processado e contém hyperlink não são relevantes para a análise de sentimentos proposta.
+
+Colunas Utilizadas:
+
+1. **dataPublicada**: A data de publicação é relevante, pois permite identificar a cronologia dos comentários e compreender possíveis tendências ou mudanças nos sentimentos ao longo do tempo.
+2. **autor**: A identificação do autor é relevante para analisar a inclinação dele na expressão dos sentimentos positivos, negativos ou neutros em cada publicação.
+3. **texto**: O texto do comentário em si é o elemento central para a análise de sentimentos. É por meio do texto que podemos extrair informações linguísticas e identificar palavras, frases ou padrões.
+4. **sentimento**: Essa coluna é a variável-alvo da análise de sentimentos. A classificação de sentimento atribui uma categoria (positivo, negativo ou neutro) a cada comentário com base na análise do seu conteúdo textual.
+5. **tipoInteracao**: A categoria de interação do texto do comentário pode fornecer informações adicionais sobre o contexto em que o comentário foi feito. 
+
+Colunas Descartadas:
+
+1. **anomalia**: Essa coluna não é relevante para a análise de sentimentos, pois está relacionada à classificação de possíveis comportamentos maliciosos ou golpes nos comentários, não ao sentimento expresso neles.
+2. **probabilidadeAnomalia**: Essa coluna também está relacionada à classificação de possíveis anomalias ou comportamentos maliciosos, não sendo relevante para a análise de sentimentos.
+3. **linkPost**: O link da postagem do Instagram não está diretamente relacionado ao sentimento expresso nos comentários e, portanto, não é relevante para a análise de sentimentos.
+4. **processado**: Essa coluna indica se a análise de sentimentos já foi realizada na linha. Embora seja útil para rastrear o progresso do processamento dos dados, não contribui diretamente para a análise de sentimentos em si.
+5. **contemHyperlink**: Essa coluna indica se um comentário possui um hyperlink. Embora possa ser relevante para outras análises, como a detecção de spam, não é diretamente relevante para a análise de sentimentos dos comentários.
+
+### Formatação de datas
+
+Para a manipulação correta das datas e horários na base de dados, todas precisam estar no mesmo formato, sendo o modelo escolhido dd-mm-yyyy (Exemplo: 03-04-2022). A coluna afetada pela formatação foi a “dataPublicada”. Essa Feature foi selecionada pois sem a formatação das datas resultaria em um difícil manuseio dos dados. A Figura 17, ilustra o antes e o depois da formação, sendo o lado esquerdo da imagem o antes da aplicação e o lado direito o depois.
+
+ANTES
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/dataPublicada_antes.png">
+Fonte: Autores
+
+DEPOIS
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/dataPublicada_depois.png">
+
+Fonte: Autores
 # Gráfico de Tendência Temporal dos Sentimentos
 
 O gráfico de tendência temporal dos sentimentos foi utilizado para explorar a evolução dos sentimentos (positivos, negativos e neutros) ao longo do tempo com base na coluna "dataPublicada". Com ele, identifica-se picos de comentários positivos, negativos e neutros ao longo dos três últimos meses antes da última inserção de comentários na base (11-12-2022). A figura X abaixo ilustra o gráfico.
