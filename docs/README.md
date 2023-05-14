@@ -366,6 +366,50 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 # (Sprint 2) Documentação do Modelo de Bag of Words
 
+# Metodologia
+Nesta sessão é apresentado as metodologias utilizadas como base para a criação do modelo de processamento de linguagem natural como um todo.
+
+## CRISP-DM
+Exibe-se as etapas que correspondem a metodologia do CRISP-DM. Na figura X abaixo, encontra-se uma imagem ilustrando como funciona a sequência de processos a serem exercidos quando a metodologia é implementada.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/CRISP_DM.png">
+
+
+
+### Entendimento do negócio
+Busca-se ter uma visão clara do problema que se precisa resolver, é nesta fase que se deve traçar os objetivos do negócio, buscar mais detalhes do problema, listar os recursos disponíveis e o impacto esperado. Tem como características estabelecer métricas e os critérios quantitativos para os possíveis resultados. Priorizando aqueles que influenciam sua meta e também criar uma análise da vantagem do projeto, além do custo-benefício. Define-se os modelos, relatórios, apresentações e os dados.
+
+### Entendimento dos dados
+Nesta segunda fase, se obtêm os dados e verifica-se se eles são adequados às suas necessidades. É importante ter feito uma boa fase 1, para que nesta fase não tenha que revisar o entendimento do negócio, nem repensar metas e planos.
+Os objetivos desta fase são coletar os dados, descrevê-los, explorá-los e verificar a qualidade dos mesmos. Estabelecer formato para esses dados, é possível que seja necessário reunir novos dados, enfrentar limitações de software ou hardware. E encontrar imperfeições nos dados.
+Na parte da documentação é importante estabelecer o feature selection, especificar os campos relevantes e criar uma descrição geral dos dados que possui, assim como os formatos, variáveis, técnicas estatísticas e qualquer informação que possa ser relevante. É o lugar para criar, testar e documentar hipóteses geradas após a exploração dos dados.
+
+### Preparação dos dados
+Agora que a maioria dos dados usados já foram coletados, necessita de refinamento antes de ser usado na modelagem. Esta fase possui cinco principais tarefas:
+
+1. Selecionar os dados: É o momento de justificar quais dados serão ou não
+utilizados, documentar a relevância desses para seu objetivo, os problemas
+técnicos,
+2. Limpar esses dados: Corrigir alguns dados específicos, excluir ou substituir por
+valores padrões para uma técnica de modelagem mais sofisticada.
+3. Documentar bem detalhadamente os processos utilizados nesta etapa e o
+possível impacto gerado por essa escolha
+4. Construção dos dados: Criar campos e documentá-los explicando os motivos.
+5. Integração dos dados: Diversos conjuntos de dados, para mesclá-los e prepará-los para a fase de modelagem. Formatar os dados para o formato mais conveniente para o projeto.
+
+### Modelagem
+Nesta fase serão escolhidas as técnicas mais adequadas para modelagem, ou seja, está etapa envolve a seleção e a utilização de técnicas e algoritmos que atendam as necessidades do negócio. Geralmente os dados são divididos em duas partes: um de treino (que são gerados os modelos) e um de teste (que se refere a validação do modelo). Com base nisso, é definido se continua o desenvolvimento da modelagem (avaliação) ou se retorna para a fase de preparação de dados.
+
+### Avaliação
+Nesta fase será avaliada a qualidade e a segurança dos resultados obtidos na etapa anterior. De modo que seja possível verificar se esse resultado corresponde às expectativas do projeto. Caso não atenda, devem ser realizadas as modificações necessárias (como correção na entrada de dados, correção no tratamento dos atributos, entre outros).
+
+### Implementação
+Nesta fase é realizada o desenvolvimento dos modelos criados e avaliados. Durante essa etapa são realizadas tarefas, como: implantação da solução, monitoramento e manutenção, geração de relatórios e avaliação os resultados finais. Vale ressaltar que essa forma de implementação depende do tipo de modelo e projeto. Além disso, é preciso que o usuário final consiga interpretar e operar o produto com facilidade
+
+## Ferramentas 
+As ferramentas utilizadas para a construção da solução, consiste em aquelas utilizadas para o desenvolvimento, organização e compartilhamento de arquivos. Primeiramente, definiu-se uma ferramenta para a organização, tendo como base o aplicativo Notion, que permite organizar, através de cards, todas as tarefas da equipe, sendo possível visualizar o que está sendo feito pelos integrantes e gerenciar as entregas já concluídas. Em paralelo a isso, tem-se a ferramenta de desenvolvimento. Para isso, utilizou-se o Google Collaboratory, onde criou-se o notebook do projeto, o qual é utilizado para criação, organização e execução do código.
+As ferramentas de compartilhamento de arquivos. Para os arquivos de desenvolvimento do trabalho, é utilizado o Google Drive, que possui integração com o Google Collaboratory. Assim, sendo possível compartilhar em tempo real os arquivos referentes ao desenvolvimento. E por fim, é utilizado o Github, que possibilita compartilhar todos os arquivos do projeto, referente a descrição, organização e desenvolvimento em um ambiente que será possível ter uma visão ampla do que foi desenvolvido
+
 ## Compreensão dos dados
 
 As sessões abaixo apresenta o conjunto de dados trabalhado, seus principais atributos, descrições e análises estatísticas.
