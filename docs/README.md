@@ -366,7 +366,47 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
-Preencher conforme a descrição do artefato na Adalove.
+# Análise de dados
+
+Essa sessão apresenta a análise preliminar do padrões, tendências e relações identificadas nos dados por meio de gráficos. Destaca-se os principais achados e insights obtidos a partir dos gráficos, sua análise e significado. 
+
+# Gráfico de Tendência Temporal dos Sentimentos
+
+O gráfico de tendência temporal dos sentimentos foi utilizado para explorar a evolução dos sentimentos (positivos, negativos e neutros) ao longo do tempo com base na coluna "dataPublicada". Com ele, identifica-se picos de comentários positivos, negativos e neutros ao longo dos três últimos meses antes da última inserção de comentários na base (11-12-2022). A figura X abaixo ilustra o gráfico.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/tendenciatemporalsentimentos.png">
+Fonte: Autores
+
+
+Ao analisar o período de 02-12-2022 a 15-12-2022, observamos um padrão de comportamento nos comentários positivos. Durante esse período, houve um aumento notável na contagem de comentários positivos, atingindo um pico de 100 comentários. Esse pico pode ser um indicativo de um evento ou acontecimento especial que gerou um grande número de reações positivas dos usuários. Inclusive porque durante o mês de Dezembro o BTG realiza o evento de Natal, o que pode atrair uma maior quantidade de acessos, por conta de shows e decorações no local. 
+
+# Gráfico de Dispersão para Sentimento e Autor
+
+O Gráfico de Dispersão para Relação entre Sentimento e Autor é utilizado para explorar a relação entre o sentimento expresso nos comentários e os respectivos autores. Nesse gráfico, o eixo x representa os autores e o eixo y representa a polaridade do sentimento, com valores negativos, neutros e positivos. Na figura X abaixo exibe-se o gráfico. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/sentimentoAutor.png">
+Fonte: Autores
+
+
+Ao observar o gráfico, podemos identificar a interação entre os autores e o sentimento expresso em seus comentários. Notamos que os comentários neutros ainda são os mais recorrentes, sugerindo uma tendência de neutralidade predominante nas interações. No entanto, é importante ressaltar a necessidade de realizar um balanceamento dos dados, uma vez que a alta recorrência de comentários neutros pode influenciar a análise geral. A sequência de comentários positivos, é notória e merece uma análise mais aprofundada. Essa sequência de comentários positivos pode revelar insights sobre a satisfação dos autores, a eficácia de determinadas ações ou até mesmo a qualidade do conteúdo gerado.
+
+# Gráfico de Nuvem de Palavras
+
+O Gráfico de Nuvem de Palavras, também conhecido como Word Cloud, é uma ferramenta para analisar e visualizar as palavras mais frequentes em um texto. Nesse contexto, o uso se mostra especialmente útil para identificar as palavras mais recorrentes nos comentários expresso pelos usuários.
+
+Para começar, foi criada uma nuvem de palavras considerando a base geral de dados. Essa nuvem de palavras mostra as palavras mais frequentes em todos os comentários, independentemente do período em que foram feitos. É uma forma de entender os temas e tópicos mais abordados pelos usuários de maneira geral. Palavras maiores indicam uma frequência maior na base de dados, enquanto palavras menores indicam uma frequência menor. Pode-se visualiza-lo na figura X abaixo. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras1.png">
+Fonte: Autores
+
+
+Além disso, foi criada uma segunda nuvem de palavras focada no período específico de 02-12 a 15-12 de 2022, no qual foi identificado um pico significativo de comentários positivos. Essa nuvem de palavras permite analisar as palavras mais frequentes nesse período específico e identificar possíveis mudanças nos temas e tópicos discutidos pelos usuários. Através dessa análise, é possível compreender melhor os fatores que levaram a esse pico de comentários positivos e explorar as causas prováveis. Na imagem X abaixo pode-se visualiza-lo. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras2.png">
+Fonte: Autores
+
+
+Outro aspecto importante é que pretende-se remover o nome "BTG Pactual" da nuvem de palavras, a fim de focar em palavras mais claras e específicas do assunto. Isso permite uma análise mais precisa e a identificação de termos relacionados ao sentimento dos usuários, sem a interferência do nome da empresa. 
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
