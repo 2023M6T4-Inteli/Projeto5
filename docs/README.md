@@ -362,7 +362,7 @@ Disponível em: https://www.contabilizei.com.br/contabilidade-online/o-que-e-roi
 
 # (Sprint 2) Modelo de Bag of Words (IPYNB)
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
+Notebook - Sprint 2 - https://github.com/2023M6T4-Inteli/Projeto5/blob/main/src/1_9_Notebook_Final_Sprint2.ipynb
 
 # (Sprint 2) Documentação do Modelo de Bag of Words
 
@@ -374,7 +374,7 @@ Exibe-se as etapas que correspondem a metodologia do CRISP-DM. Na figura X abaix
 
 <img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/CRISP_DM.png">
 
-
+Fonte: Medium 2019
 
 ### Entendimento do negócio
 Busca-se ter uma visão clara do problema que se precisa resolver, é nesta fase que se deve traçar os objetivos do negócio, buscar mais detalhes do problema, listar os recursos disponíveis e o impacto esperado. Tem como características estabelecer métricas e os critérios quantitativos para os possíveis resultados. Priorizando aqueles que influenciam sua meta e também criar uma análise da vantagem do projeto, além do custo-benefício. Define-se os modelos, relatórios, apresentações e os dados.
@@ -465,43 +465,70 @@ DEPOIS
 <img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/dataPublicada_depois.png">
 
 Fonte: Autores
-# Gráfico de Tendência Temporal dos Sentimentos
 
-O gráfico de tendência temporal dos sentimentos foi utilizado para explorar a evolução dos sentimentos (positivos, negativos e neutros) ao longo do tempo com base na coluna "dataPublicada". Com ele, identifica-se picos de comentários positivos, negativos e neutros ao longo dos três últimos meses antes da última inserção de comentários na base (11-12-2022). A figura X abaixo ilustra o gráfico.
+### Remoção Comentário BTG Pactual
 
-<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/tendenciatemporalsentimentos.png">
-Fonte: Autores
+A remoção dos comentários relacionados à empresa BTG Pactual da coluna “autor” da base de dados, foi realizada uma vez que o objetivo é analisar as opiniões e sentimentos expressos pelos usuários em relação à empresa, e incluir os comentários feitos pela própria empresa poderia enviesar os resultados. Ao remover os comentários da BTG Pactual, é possível obter uma análise mais imparcial e focada nas percepções dos usuários externos à empresa, o que permite uma compreensão mais precisa e representativa dos sentimentos em relação à organização. Na figura abaixo exibe-se o código utilizado para tal ação. 
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/1efed13b-c15e-41c6-8277-13cdc08f7938)
+
+### Remoção de Aspas Duplas 
+
+A remoção das aspas duplas em cada título das colunas, foi realizado para formatação adequada dos títulos. A presença de aspas duplas poderia dificultar a manipulação e o processamento dos dados, especialmente ao realizar consultas ou acessar as colunas da estrutura de dados. Ao remover, os títulos ficam mais limpos e prontos para serem utilizados em análises e visualizações, contribuindo para uma melhor organização e tratamento dos dados. Na figura abaixo exibe-se o código utilizado para tal ação. 
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/75bf243e-ebf6-436b-86a4-72259f28d77b)
+
+### Anonimização dos Autores
+
+A etapa de anonimização dos autores foi necessário por se tratar de informações que relacionam diretamente comentários aos seus autores, para remover viés e/ou julgamentos. Este processo envolve a substituição das identidades dos usuários, substituindo-as por identificadores numéricos. Realizada para garantir a privacidade e a proteção dos dados pessoais dos usuários. Além disso, a anonimização dos autores permite que a análise seja focada nos padrões, tendências e informações coletivas dos dados, em vez de identificar indivíduos específicos. Na figura abaixo exibe-se o código utilizado para tal ação. 
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/ce007658-06b7-4382-8070-2fd01c598302)
+
+# Pré-Processamento dos dados
+
+Nesta sessão, define-se o pré-processamento de dados, etapa essencial no processo de análise de dados, responsável pela transformação e limpeza dos dados brutos tornando-os adequados para análise. São aplicadas diversas técnicas e métodos para lidar com casos que prejudiquem a análise e objetivo proposto, o objetivo é melhorar a qualidade dos dados, torná-los mais coerentes e garantir que estejam prontos para a aplicação de modelos. As etapas realizadas foram:
+
+- **Descrição Emojis:** Identificação e análise dos emojis presentes nos textos, conversão das figuras utilizadas para palavras.
+    - A função “removeEmoji” foi utilizada para identificar todos os emojis presentes no DataFrame e realizar a conversão de símbolo para palavra. Sua codificação pode ser visualizada abaixo:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/02bb6aca-132a-43dd-8512-34dda0a04340)
+
+- **Remoção de Ruídos:** Eliminação de caracteres especiais, símbolos, pontuações, quaisquer elemento que possa interferir na análise dos dados.
+    - A função “removeCaracteres” e “removeAcentos”, foram criadas para remover os ruídos presentes no DataFrame, ou seja, os caracteres especiais e pontuações dos comentários. Sua codificação pode ser visualizada abaixo, respectivamente:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/6396b03c-8ce4-40ff-9bcf-b6dd316a8824)
+
+- **Conversão de gírias e abreviações:** Transformação de gírias, abreviações e termos informais em palavras completas para melhorar a compreensão e consistência dos textos.
+    - A função “normalizar_texto” é responsável por desempenhar dois papéis, sendo eles, normalizar os textos para minúsculo e converter gírias e abreviações presentes nos comentário para as palavras de onde se originaram, através de um dicionário de gírias setado. Sua codificação pode ser visualizada abaixo, respectivamente:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/4827666b-f6aa-4122-beb7-adf52b1b1871)
+
+- **Tokenização:** Divisão dos textos em unidades menores, neste caso palavras, para facilitar a análise e o processamento dos dados. E,  **StopWords:** Remoção de palavras, como artigos, preposições e pronomes, que não contribuem significativamente para a análise textual.
+    - A função “processarTexto” foi programada para realizar dois processos, tokenizar as palavras e remover as stopwords dela, visando facilitar a análise e processamento dos dados, melhorando a qualidade e relevância dos resultados obtidos. Sua codificação pode ser visualizada abaixo:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/0b34f961-1ff7-4465-9c36-882193b98418)
+
+## Modelo Bag Of Words
+
+Pode-se definir o modelo "Bag of Words", saco de palavras em português, como um texto que possui vocabulário com todas as palavras encontradas, sem repetições, onde ignora-se a ordem e a estrutura gramatical. A partir da criação de um vetor numérico, é possível visualizar a frequência das palavras naquele determinado texto. Benéfico na identificação das palavras e frequências, mas, maléfico acerca de estrutura de texto e semântica. Com isso, para uma utilizar preliminar o modelo Bag Of Words ajuda a identificar palavras-chave que indicam sentimentos positivos, negativos ou neutros, oferecendo uma abordagem simples e eficiente para a classificação de sentimentos em textos, mesmo que ainda de forma abrangente.
+
+A função responsável pela execução do modelo foi “bag_of_words”, com ela, realizou-se a criação do vocabulário de palavras únicas presentes dos comentários tratados. Após, aplicou-se a vetorização dos campos de texto processados, ou seja, transformação dos textos em vetores numéricos para assim, gerar a matriz binária correspondente a frequência de cada palavra do vocabulário. Sua codificação pode ser visualizada abaixo:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/43ef03cd-908b-4ae5-ad32-5b7a8aee0434)
+
+## Pipeline 
+
+Nesta etapa apresenta-se a pipeline, sendo ela uma sequência de processos que são executados em uma determinada ordem, buscando modificar no caso, realizar o pré-processamento dos textos fornecidos. Assim, utiliza-se o resultado da etapa anterior como entrada para a próxima. O objetivo é automatizar a execução dividindo-as em tarefas menores e mais simples. Sua codificação pode ser visualizada abaixo:
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/1138cbe6-72dc-4194-8a29-1547502f904f)
 
 
-Ao analisar o período de 02-12-2022 a 15-12-2022, observamos um padrão de comportamento nos comentários positivos. Durante esse período, houve um aumento notável na contagem de comentários positivos, atingindo um pico de 100 comentários. Esse pico pode ser um indicativo de um evento ou acontecimento especial que gerou um grande número de reações positivas dos usuários. Inclusive porque durante o mês de Dezembro o BTG realiza o evento de Natal, o que pode atrair uma maior quantidade de acessos, por conta de shows e decorações no local. 
+### Pipeline Ilustrativa
 
-# Gráfico de Dispersão para Sentimento e Autor
+Apresenta-se a sequência de etapas que são aplicadas em uma ordem específica para processar dados de forma ilustrativa. Exibindo suas etapas em fluxo, além de exemplos de uso de forma gráfica, na figura abaixo.
 
-O Gráfico de Dispersão para Relação entre Sentimento e Autor é utilizado para explorar a relação entre o sentimento expresso nos comentários e os respectivos autores. Nesse gráfico, o eixo x representa os autores e o eixo y representa a polaridade do sentimento, com valores negativos, neutros e positivos. Na figura X abaixo exibe-se o gráfico. 
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/c62e8998-5cc8-4e6c-8e1f-6866ec41c79d)
 
-<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/sentimentoAutor.png">
-Fonte: Autores
-
-
-Ao observar o gráfico, podemos identificar a interação entre os autores e o sentimento expresso em seus comentários. Notamos que os comentários neutros ainda são os mais recorrentes, sugerindo uma tendência de neutralidade predominante nas interações. No entanto, é importante ressaltar a necessidade de realizar um balanceamento dos dados, uma vez que a alta recorrência de comentários neutros pode influenciar a análise geral. A sequência de comentários positivos, é notória e merece uma análise mais aprofundada. Essa sequência de comentários positivos pode revelar insights sobre a satisfação dos autores, a eficácia de determinadas ações ou até mesmo a qualidade do conteúdo gerado.
-
-# Gráfico de Nuvem de Palavras
-
-O Gráfico de Nuvem de Palavras, também conhecido como Word Cloud, é uma ferramenta para analisar e visualizar as palavras mais frequentes em um texto. Nesse contexto, o uso se mostra especialmente útil para identificar as palavras mais recorrentes nos comentários expresso pelos usuários.
-
-Para começar, foi criada uma nuvem de palavras considerando a base geral de dados. Essa nuvem de palavras mostra as palavras mais frequentes em todos os comentários, independentemente do período em que foram feitos. É uma forma de entender os temas e tópicos mais abordados pelos usuários de maneira geral. Palavras maiores indicam uma frequência maior na base de dados, enquanto palavras menores indicam uma frequência menor. Pode-se visualiza-lo na figura X abaixo. 
-
-<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras1.png">
-Fonte: Autores
-
-
-Além disso, foi criada uma segunda nuvem de palavras focada no período específico de 02-12 a 15-12 de 2022, no qual foi identificado um pico significativo de comentários positivos. Essa nuvem de palavras permite analisar as palavras mais frequentes nesse período específico e identificar possíveis mudanças nos temas e tópicos discutidos pelos usuários. Através dessa análise, é possível compreender melhor os fatores que levaram a esse pico de comentários positivos e explorar as causas prováveis. Na imagem X abaixo pode-se visualiza-lo. 
-
-<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras2.png">
-Fonte: Autores
-
-
-Outro aspecto importante é que pretende-se remover o nome "BTG Pactual" da nuvem de palavras, a fim de focar em palavras mais claras e específicas do assunto. Isso permite uma análise mais precisa e a identificação de termos relacionados ao sentimento dos usuários, sem a interferência do nome da empresa. 
 
 # Análise descritiva
 Nesta sessão apresenta-se a etapa inicial e fundamental na análise de dados, fornecendo uma descrição resumida das características e padrões presentes nos dados coletados. Permitindo uma compreensão inicial dos dados e auxilia na tomada de decisões e na formulação de estratégias com base nas informações disponíveis. Por meio desta, apresenta-se as seguintes informações coletadas:
@@ -560,10 +587,56 @@ GRAFICO DEPOIS DO TRATAMENTO
 
 Essas informações são cruciais para compreender melhor a percepção dos usuários em relação ao banco e para orientar futuras estratégias de comunicação e relacionamento com o público, garantindo uma maior assertividade em futuras publicações do banco BTG.
 
-### Entendimento dos dados
-Nesta segunda fase, se obtêm os dados e verifica-se se eles são adequados às suas necessidades. É importante ter feito uma boa fase 1, para que nesta fase não tenha que revisar o entendimento do negócio, nem repensar metas e planos.
-Os objetivos desta fase são coletar os dados, descrevê-los, explorá-los e verificar a qualidade dos mesmos. Estabelecer formato para esses dados, é possível que seja necessário reunir novos dados, enfrentar limitações de software ou hardware. E encontrar imperfeições nos dados.
-Na parte da documentação é importante estabelecer o feature selection, especificar os campos relevantes e criar uma descrição geral dos dados que possui, assim como os formatos, variáveis, técnicas estatísticas e qualquer informação que possa ser relevante. É o lugar para criar, testar e documentar hipóteses geradas após a exploração dos dados.
+
+# Análise de dados
+
+Essa sessão apresenta a análise preliminar do padrões, tendências e relações identificadas nos dados por meio de gráficos. Destaca-se os principais achados e insights obtidos a partir dos gráficos, sua análise e significado. 
+
+## Gráfico de Tendência Temporal dos Sentimentos
+
+O gráfico de tendência temporal dos sentimentos foi utilizado para explorar a evolução dos sentimentos (positivos, negativos e neutros) ao longo do tempo com base na coluna "dataPublicada". Com ele, identifica-se picos de comentários positivos, negativos e neutros ao longo dos três últimos meses antes da última inserção de comentários na base (11-12-2022). A figura X abaixo ilustra o gráfico.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/tendenciatemporalsentimentos.png">
+Fonte: Autores
+
+
+Ao analisar o período de 02-12-2022 a 15-12-2022, observamos um padrão de comportamento nos comentários positivos. Durante esse período, houve um aumento notável na contagem de comentários positivos, atingindo um pico de 100 comentários. Esse pico pode ser um indicativo de um evento ou acontecimento especial que gerou um grande número de reações positivas dos usuários. Inclusive porque durante o mês de Dezembro o BTG realiza o evento de Natal, o que pode atrair uma maior quantidade de acessos, por conta de shows e decorações no local. 
+
+## Gráfico de Dispersão para Sentimento e Autor
+
+O Gráfico de Dispersão para Relação entre Sentimento e Autor é utilizado para explorar a relação entre o sentimento expresso nos comentários e os respectivos autores. Nesse gráfico, o eixo x representa os autores e o eixo y representa a polaridade do sentimento, com valores negativos, neutros e positivos. Na figura X abaixo exibe-se o gráfico. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/sentimentoAutor.png">
+Fonte: Autores
+
+
+Ao observar o gráfico, podemos identificar a interação entre os autores e o sentimento expresso em seus comentários. Notamos que os comentários neutros ainda são os mais recorrentes, sugerindo uma tendência de neutralidade predominante nas interações. No entanto, é importante ressaltar a necessidade de realizar um balanceamento dos dados, uma vez que a alta recorrência de comentários neutros pode influenciar a análise geral. A sequência de comentários positivos, é notória e merece uma análise mais aprofundada. Essa sequência de comentários positivos pode revelar insights sobre a satisfação dos autores, a eficácia de determinadas ações ou até mesmo a qualidade do conteúdo gerado.
+
+## Gráfico de Nuvem de Palavras
+
+O Gráfico de Nuvem de Palavras, também conhecido como Word Cloud, é uma ferramenta para analisar e visualizar as palavras mais frequentes em um texto. Nesse contexto, o uso se mostra especialmente útil para identificar as palavras mais recorrentes nos comentários expresso pelos usuários.
+
+Para começar, foi criada uma nuvem de palavras considerando a base geral de dados. Essa nuvem de palavras mostra as palavras mais frequentes em todos os comentários, independentemente do período em que foram feitos. É uma forma de entender os temas e tópicos mais abordados pelos usuários de maneira geral. Palavras maiores indicam uma frequência maior na base de dados, enquanto palavras menores indicam uma frequência menor. Pode-se visualiza-lo na figura X abaixo. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras1.png">
+Fonte: Autores
+
+
+Além disso, foi criada uma segunda nuvem de palavras focada no período específico de 02-12 a 15-12 de 2022, no qual foi identificado um pico significativo de comentários positivos. Essa nuvem de palavras permite analisar as palavras mais frequentes nesse período específico e identificar possíveis mudanças nos temas e tópicos discutidos pelos usuários. Através dessa análise, é possível compreender melhor os fatores que levaram a esse pico de comentários positivos e explorar as causas prováveis. Na imagem X abaixo pode-se visualiza-lo. 
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/nuvemPalavras2.png">
+Fonte: Autores
+
+
+Outro aspecto importante é que pretende-se remover o nome "BTG Pactual" da nuvem de palavras, a fim de focar em palavras mais claras e específicas do assunto. Isso permite uma análise mais precisa e a identificação de termos relacionados ao sentimento dos usuários, sem a interferência do nome da empresa. 
+
+# Matriz de Risco - Sprint 2
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/c282d2b0-39cb-4015-8d3e-508a9a0fc223)
+
+## Plano de gerenciamento de riscos
+
+![image](https://github.com/2023M6T4-Inteli/Projeto5/assets/99223562/c3ec3b5b-bf99-4351-8743-d57f3a256a9b)
 
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
