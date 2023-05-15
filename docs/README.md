@@ -1,9 +1,5 @@
 # Documento Principal do Projeto
 
-# OBSERVAÇÃO:
-
-Recomenda-se fortemente a correção e/ou leitura do documento pelo <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V1_PLN_Document.pdf">T4_G5_V1_PLN_Document.pdf</a>, onde apresenta-se o conteúdo formatado e estruturado, mediante os critérios do escritório de projeto.
-
 # Controle de documentação
 
 <img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/outros/Controle%20de%20Documento.png"> 
