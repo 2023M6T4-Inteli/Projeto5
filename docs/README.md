@@ -503,6 +503,69 @@ Fonte: Autores
 
 Outro aspecto importante é que pretende-se remover o nome "BTG Pactual" da nuvem de palavras, a fim de focar em palavras mais claras e específicas do assunto. Isso permite uma análise mais precisa e a identificação de termos relacionados ao sentimento dos usuários, sem a interferência do nome da empresa. 
 
+# Análise descritiva
+Nesta sessão apresenta-se a etapa inicial e fundamental na análise de dados, fornecendo uma descrição resumida das características e padrões presentes nos dados coletados. Permitindo uma compreensão inicial dos dados e auxilia na tomada de decisões e na formulação de estratégias com base nas informações disponíveis. Por meio desta, apresenta-se as seguintes informações coletadas:
+
+### Quantidade de linhas na tabela
+
+Após o tratamento dos dados, notou-se uma considerável redução no número de linhas da tabela. Isso indica que foram aplicadas etapas de limpeza e remoção de registros inválidos, duplicados ou irrelevantes. Essa redução pode ter impacto na análise subsequente, uma vez que os dados estão mais refinados e selecionados.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/quantidadeDeLinhas.png">
+
+### Quantidade de palavras na coluna texto
+
+Após o tratamento dos textos, foi observada uma significativa redução na quantidade de palavras presentes na coluna. Isso pode indicar que foram removidas palavras irrelevantes, stop words, símbolos e outros elementos que não contribuíam para a análise. A limpeza dos textos pode facilitar a identificação de padrões e informações relevantes posteriormente.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/quantidadeDePalavras.png">
+
+### A distribuição de sentimentos positivos, negativos e neutros expressos pelos usuários
+
+Mesmo após o tratamento dos dados, a distribuição dos sentimentos expressos pelos usuários ainda apresenta uma grande quantidade de sentimentos neutros. Esse fato indica que deverá ser necessário um tratamento e balanceamento adequado para lidar com essa desproporção entre os sentimentos. Esse tratamento pode ser importante para garantir uma análise mais precisa e equilibrada dos dados.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/distribuicaoSentimentos.png">
+
+GRAFICO ANTES DO TRATAMENTO
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/contagemSentimentosAntes.png">
+
+GRAFICO APÓS DO TRATAMENTO
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/contagemSentimentosApos.png">
+
+### Quantidade de autores na base de dados
+
+Após o tratamento dos dados, a quantidade de autores na base de dados foi reduzida. Essa redução pode estar relacionada a diferentes motivos, como a remoção de registros de autores inválidos ou a anonimização dos autores por questões de privacidade. Essa informação é relevante para entender o o engajamento e a participação dos diferentes autores na base de dados.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/quantidadeAutores.png">
+
+### Os usuários que mais realizaram comentários
+
+A análise identificou os usuários que mais realizaram comentários na base de dados. Essa informação é útil para compreender quais usuários são mais ativos e engajados na interação, podendo indicar a presença de usuários influentes ou que possuem uma participação mais frequente nas discussões. Porém, devido à anonimização dos autores para preservar a privacidade, não é possível exibir a identificação específica dos usuários, antes do tratamento de dados. Utilizando um gráfico de barras, podemos visualizar a distribuição dos comentários entre os usuários e identificar aqueles com maior participação. Dessa forma, garantimos a confidencialidade dos dados enquanto analisamos a contribuição dos usuários mais engajados.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/usuariosMaisAtivos.png">
+
+### Quantidade de comentários por Tipo de Interação
+
+Após o tratamento dos dados, a análise revelou a quantidade de comentários por tipo de interação. Observou-se que a marcação apresentou a maior quantidade de comentários, seguida por comentário e resposta. Essa informação permite entender como os usuários interagem e qual tipo de interação é mais comum na base de dados. Essa análise pode ajudar a identificar os padrões de comunicação e a dinâmica das interações entre os usuários.
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/tiposInteracao.png">
+
+GRAFICO ANTES DO TRATAMENTO
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/distribuicaoInteracaoAntes.png">
+
+GRAFICO DEPOIS DO TRATAMENTO
+
+<img src="https://github.com/2023M6T4-Inteli/Projeto5/blob/dev/docs/outros/distribuicaoInteracaoApos.png">
+
+Essas informações são cruciais para compreender melhor a percepção dos usuários em relação ao banco e para orientar futuras estratégias de comunicação e relacionamento com o público, garantindo uma maior assertividade em futuras publicações do banco BTG.
+
+### Entendimento dos dados
+Nesta segunda fase, se obtêm os dados e verifica-se se eles são adequados às suas necessidades. É importante ter feito uma boa fase 1, para que nesta fase não tenha que revisar o entendimento do negócio, nem repensar metas e planos.
+Os objetivos desta fase são coletar os dados, descrevê-los, explorá-los e verificar a qualidade dos mesmos. Estabelecer formato para esses dados, é possível que seja necessário reunir novos dados, enfrentar limitações de software ou hardware. E encontrar imperfeições nos dados.
+Na parte da documentação é importante estabelecer o feature selection, especificar os campos relevantes e criar uma descrição geral dos dados que possui, assim como os formatos, variáveis, técnicas estatísticas e qualquer informação que possa ser relevante. É o lugar para criar, testar e documentar hipóteses geradas após a exploração dos dados.
+
+
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
 Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
