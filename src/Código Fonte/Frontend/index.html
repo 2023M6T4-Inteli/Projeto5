@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Front-end do CRUD</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD</h1>
+        <h2>Adicionar Livro</h2>
+        <form id="addForm">
+            <div class="form-group">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="author">Autor:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <button type="submit" class="btn">Adicionar</button>
+        </form>
+        <h2>Livros</h2>
+        <ul id="bookList"></ul>
+        <button id="showBooksBtn" class="btn">Imprimir Lista de Livros</button>
+        <button id="showSentimentChartBtn" class="btn">Gerar Gráfico de Sentimentos</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
