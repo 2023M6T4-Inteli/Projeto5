@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard Principal</title>
+</head>
+<body>
+    
+
+   
+    <section class="menu-container">
+
+         <!-- Criação do Menu  -->
+         <section class="menu">
+            
+            <img class="logo" src="./assets/logo.svg">
+
+            <div>
+                <a href="#" class="menuTexto">
+                    <img class="iconMenu" src="./assets/docs.svg">
+                    <p class="textoMenu">Análise</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="#" class="menuTexto">
+                    <img class="iconMenu" src="./assets/casa.svg">
+                    <p class="textoMenu">Dashboard</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="#" class="menuTexto">
+                    <img class="iconMenu" src="./assets/analise.svg">
+                    <p class="textoMenu">Análise Dinâmica</p>
+                </a>
+            </div>
+         </section>
+
+        <!-- Criação Seção Principal -->
+        <section class="dashboard">
+
+            <h1 class="tituloDash">Dashboard</h1>
+            
+            <div class="introducaoDash">
+
+                <div class="cardBoasVindas">
+                    <div class="alinhamentoTextoCard">
+                        <p class="textoCardPrincipal">Olá, Bem-vindo!</p>
+                        <p class="textoCard">Plataforma de análise de sentimentos de comentários do instagram. </p>
+                    </div>
+    
+                    <div>
+                        <img class="cardHome" src="./assets/CardHome.svg">
+                    </div>
+                </div>
+    
+                <div class="quantComentarios">
+                    <div class="iconCard2">
+                        <img class="imgQuantDados" src="./assets/quantDados.svg">
+                    </div>
+
+                    <div class="textoCard2">
+                        <p class="textoQuantDados">Quant. Comentários</p>
+                        <p class="quantDados">4587</p>
+                    </div>
+                </div>
+    
+                <div class="principalSentimento">
+                    <div class="iconCard3">
+                        <img class="imgQuantSentimento" src="./assets/quantSentimento.svg">
+                    </div>
+
+                    <div class="textoCard3">
+                        <div class="textoSentimentoPrincipal">Principal Sentimento Categorico</div>
+                        <div class="quantSentimentoPrincipal">Negativo</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="graficos">
+
+                <div class="g4567">
+
+                    <div class="g45">
+
+                        <div class="g4">
+                            <p class="tituloGrafico4">Registro Geral</p>
+                            <p class="subtituloGrafico4">
+                                Resultado geral das análises
+                            </p>
+                            <div class="tamanhoG4">
+                                <canvas id="g4Rosca"></canvas>
+                            </div>
+                            
+                        </div>
+
+                        <div class="g5">
+                            <p class="tituloGrafico">Análise de sentimento mensal</p>
+                            <p class="subtituloGrafico">Quantidade de comentários por mês.</p>
+                            <div class="tamanhoG5">
+                                <canvas id="g5Linha"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="g67">
+                        <div class="g6">
+                            <div class="alinhamentoTextoG6">
+                                <div class="textoG6">
+                                    <p class="tituloGrafico6">Detalhamento mensal</p>
+                                    <p class="subtituloGrafico6">Número de categorias de sentimento do mês.</p>
+                                </div>
+                                <div class="botaoG6">
+                                    <select id="selectMesesG6">
+                                        <option value="0">Selecione</option>
+                                        <option value="1">Janeiro</option>
+                                        <option value="2">Fevereiro</option>
+                                        <option value="3">Março</option>
+                                        <option value="4">Abril</option>
+                                        <option value="5">Maio</option>
+                                        <option value="6">Junho</option>
+                                        <option value="7">Julho</option>
+                                        <option value="8">Agosto</option>
+                                        <option value="9">Setembro</option>
+                                        <option value="10">Outubro</option>
+                                        <option value="11">Novembro</option>
+                                        <option value="12">Dezembro</option>
+                                      </select>
+                                </div>
+                            </div>
+                            
+                            <div class="tamanhoG6">
+                                <canvas id="g6Barras"></canvas>
+                            </div>
+                        </div>
+                        <div class="g7">
+                            <div class="alinhamentoTextoG7">
+                                <div class="textoG7">
+                                    <p class="tituloGrafico">Interações</p>
+                                    <p class="subtituloGrafico">
+                                        Baseado nos seguintes critérios : Quantidade de comentários, meses e categorias de sentimentos.
+                                    </p>
+                                </div>
+                                <div class="botaoG7">
+                                    <select id="selectMesesG7">
+                                        <option value="0">Selecione</option>
+                                        <option value="1">Comentário</option>
+                                        <option value="2">Marcação</option>
+                                        <option value="3">Resposta</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="tamanhoG7">
+                                <canvas id="g7Dispersao"></canvas>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="g8">
+                    <p class="tituloGrafico8">Top 10 palavras</p>
+                    <p class="subtituloGrafico">Top 10 palavras utilizadas pelos usuários</p>
+                </div>
+
+            </div>
+            
+
+        </section>
+
+    </section>
+        
+</body>
+<script src="./style.js"></script>
+</html>
