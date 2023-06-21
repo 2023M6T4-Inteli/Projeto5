@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="style.css">
+
+
     <title>Dashboard Principal</title>
 </head>
 <body>
@@ -68,7 +70,7 @@
 
                     <div class="textoCard2">
                         <p class="textoQuantDados">Quant. Comentários</p>
-                        <p class="quantDados">4587</p>
+                        <p class="quantDados" id="quantComentarios"></p>
                     </div>
                 </div>
     
@@ -79,7 +81,7 @@
 
                     <div class="textoCard3">
                         <div class="textoSentimentoPrincipal">Principal Sentimento Categorico</div>
-                        <div class="quantSentimentoPrincipal">Negativo</div>
+                        <div class="quantSentimentoPrincipal" id="principalSentimento"></div>
                     </div>
                 </div>
             </div>
@@ -174,53 +176,53 @@
                     <div class="top10Palavras">
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor1"></div>
-                            <div class="palavras1">Investimento</div>
+                            <div class="circulo" id="corSentimento1"></div>
+                            <div class="palavras1" id="palavras1"></div>
                         </div>
                         
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor2"></div>
-                            <div class="palavras2">Mercado</div>
+                            <div class="circulo" id="corSentimento2"></div>
+                            <div class="palavras2" id="palavras2"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor3"></div>
-                            <div class="palavras3">Brasil</div>
+                            <div class="circulo" id="corSentimento3"></div>
+                            <div class="palavras3" id="palavras3"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor4"></div>
-                            <div class="palavras4">Conta</div>
+                            <div class="circulo" id="corSentimento4"></div>
+                            <div class="palavras4" id="palavras4"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor5"></div>
-                            <div class="palavras5">Dinheiro</div>
+                            <div class="circulo" id="corSentimento5"></div>
+                            <div class="palavras5" id="palavras5"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor6"></div>
-                            <div class="palavras6">Ações</div>
+                            <div class="circulo" id="corSentimento6"></div>
+                            <div class="palavras6" id="palavras6"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor7"></div>
-                            <div class="palavras7">Fundo</div>
+                            <div class="circulo" id="corSentimento7"></div>
+                            <div class="palavras7" id="palavras7"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor8"></div>
-                            <div class="palavras8">Clientes</div>
+                            <div class="circulo" id="corSentimento8"></div>
+                            <div class="palavras8" id="palavras8"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor9"></div>
-                            <div class="palavras9">Financeiro</div>
+                            <div class="circulo" id="corSentimento9"></div>
+                            <div class="palavras9" id="palavras9"></div>
                         </div>
 
                         <div class="alinhamentoPalavras">
-                            <div class="circulo cor10"></div>
-                            <div class="palavras10">Cartão</div>
+                            <div class="circulo" id="corSentimento10"></div>
+                            <div class="palavras10" id="palavras10"></div>
                         </div>
                         
                     </div>
@@ -232,7 +234,10 @@
         </section>
 
     </section>
+
         
 </body>
 <script src="./style.js"></script>
+<script src="./backend.js"></script>
+
 </html>

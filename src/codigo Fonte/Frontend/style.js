@@ -1,35 +1,77 @@
 // Gráfico Rosca
-var ctxRosca = document.getElementById('g4Rosca').getContext('2d');
-var myChartRosca = new Chart(ctxRosca, {
+var posicaoMaior = 0;
+
+// Função para criar/atualizar o gráfico de rosca
+function criarGraficoRosca(data) {
+  var ctxRosca = document.getElementById('g4Rosca').getContext('2d');
+
+  // Extrair os valores de quantidade_comentarios do objeto retornado
+  var valoresComentarios = data.dados_relacionados.map(item => item.quantidade_comentarios);
+
+  console.log(valoresComentarios);
+
+  var myChartRosca = new Chart(ctxRosca, {
     type: 'doughnut',
     data: {
-    labels: ['Negativo', 'Positivo', 'Neutro'],
-    datasets: [{
-        data: [75, 12.5, 12.5],
+      labels: ['Negativo', 'Positivo', 'Neutro'],
+      datasets: [{
+        data: valoresComentarios, // Atualize os dados com os valores de quantidade_comentarios
         backgroundColor: ['#FF3333', '#0DBC53', '#B5B5B5']
-    }]
+      }]
     },
     options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    legend: {
+      responsive: true,
+      maintainAspectRatio: false,
+      legend: {
         display: false
-    },
-    plugins: {
+      },
+      plugins: {
         legend: {
-        display: true,
-        position: 'bottom',
-        labels: {
+          display: true,
+          position: 'bottom',
+          labels: {
             usePointStyle: true,
             boxWidth: 8,
             font: {
-            size: 8
+              size: 8
             }
+          }
         }
-        }
+      }
     }
+  });
+
+  var maiorValor = valoresComentarios[0];
+
+  for (var i = 1; i < valoresComentarios.length; i++) {
+    if (valoresComentarios[i] > maiorValor) {
+      maiorValor = valoresComentarios[i];
+      posicaoMaior = i;
     }
-});
+  }
+
+  console.log("A posição do maior valor é:", posicaoMaior);
+
+  categoria(posicaoMaior); // Chamar a função categoria dentro de criarGraficoRosca
+
+  return posicaoMaior;
+}
+
+function categoria(posicaoMaior) {
+  if (posicaoMaior == 0) {
+    return "Negativo";
+  } else if (posicaoMaior == 1) {
+    return "Positivo";
+  } else if (posicaoMaior == 2) {
+    return "Neutro";
+  }
+}
+
+// var posicaoMaior = criarGraficoRosca(data);
+var resultadoCategoria = categoria(posicaoMaior);
+console.log(resultadoCategoria);
+
+document.getElementById('principalSentimento').innerHTML = resultadoCategoria;
 
 // Gráfico Linha
 
