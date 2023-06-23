@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="styleAnalise.css">
+    <title>Dashboard Principal</title>
+</head>
+<body>   
+    <section class="menu-container">
+
+         <!-- Criação do Menu  -->
+         <section class="menu">
+            
+            <img class="logo" src="./assets/logo.svg">
+
+            <div>
+                <a href="#" class="menuTexto">
+                    <img class="iconMenu" src="./assets/docs.svg">
+                    <p class="textoMenu">Análise</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="./index.html" class="menuTexto">
+                    <img class="iconMenu" src="./assets/casa.svg">
+                    <p class="textoMenu">Dashboard</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="#" class="menuTexto">
+                    <img class="iconMenu" src="./assets/analise.svg">
+                    <p class="textoMenu">Análise Dinâmica</p>
+                </a>
+            </div>
+         </section>
+
+        <!-- Criação Seção Principal -->
+        
+        <section class="dashboard">
+
+            <h1 class="tituloDash">Dashboard</h1>
+
+            <div class="resultados">
+                <div class="introducaoDash">
+
+                    <div class="cardBoasVindas">
+                        <div class="alinhamentoTextoCard">
+                            <p class="textoCardPrincipal">Olá, Bem-vindo!</p>
+                            <p class="textoCard">Plataforma de análise de sentimentos de comentários do instagram. </p>
+                        </div>
+        
+                        <div>
+                            <img class="cardHome" src="./assets/CardHome.svg">
+                        </div>
+                    </div>
+                    <div class="analise">
+                        <form class="formularioAnalise">
+                            <label for="lpalavra" class="tituloPesquisar">Análise de Frase</label>
+                            <p id="frase2" class="campoPesquisa">quero um cartao btg</p>
+                            <button type="submit" class="botaoPesquisa">Analisar</button>
+                        </form>                           
+                    </div>
+                    <div class="resultadoAnalise">
+                        <div class="alinhamento">
+                            <div  class="mencoes">
+                                <div class="iconCard2">
+                                    <img class="imgQuantDados" src="assets/quantDados.svg">
+                                </div>
+                                <div class="textoCard2">
+                                    <p class="textoQuantDados">Quant. Menções</p>
+                                    <p class="quantDados">380</p>
+                                </div>
+                            </div>
+                            <div  class="mencoes">
+                                <div class="iconCard2">
+                                    <img class="imgQuantDados" src="assets/quantDados.svg">
+                                </div>
+                                <div class="textoCard2">
+                                    <p class="textoQuantDados">Sentimento</p>
+                                    <p class="quantDados">Neutro</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="graficosInteracoes">
+                            <div class="textoG6">
+                                <p class="tituloGrafico6">Detalhamento</p>
+                                <p class="subtituloGrafico6">Número de categorias de sentimento</p>
+                            </div>
+                            <div class="tamanhoG6">
+                                <canvas id="g6Barras"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="palavrasRelevantes">
+                        <div class="secaoTitulo">
+                            <div class="tituloPalavrasRelevantes">Palavras Relevantes</div>
+                            <div class="subtituloPalavrasRelevantes">Baseado na análise de palavras dinâmicas.</div>
+                        </div>
+                        <div class="secaoPalavrasRelevantes">
+                            <div class="palRel">cashback</div>
+                            <div class="palRel">uso</div>
+                            <div class="palRel">credito</div>
+                            <div class="palRel">limite</div>
+                            <div class="palRel">debito</div>
+                            <div class="palRel">investimento</div>
+                        </div>
+                </div>     
+            </div>
+        </section>
+    </section>
+           
+</body>
+<script src ="script.js"></script> 
+</html>
