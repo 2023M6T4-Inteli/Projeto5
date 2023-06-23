@@ -38,9 +38,9 @@ O BTG Pactual enfrenta o desafio de otimizar suas estratégias de marketing digi
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>assets</b>: aqui estão os arquivos relacionados a parte gráfica do projeto, ou seja, as imagens e vídeos que os representam (O logo do grupo pode ser adicionado nesta pasta).
+- <b>assets</b>: aqui estão os arquivos relacionados a parte gráfica do projeto, ou seja, as imagens e vídeos que os representam.
 
-- <b>documentos</b>: aqui estão todos os documentos do projeto, incluindo o manual de instruções (se aplicável). Há também uma pasta denominada <b>outros</b> onde estão presentes outros documentos complementares.
+- <b>documentos</b>: aqui estão todos os documentos do projeto. Há também uma pasta denominada <b>outros</b> onde estão presentes outros documentos complementares.
 
 - <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto, incluindo os notebooks, backend e frontend se aplicáveis.
 
@@ -62,10 +62,10 @@ Acrescentar as informações necessárias para configuração de desenvolvimento
     * Quinta entrega
 * 0.4.0 - XX/XX/2023
     * Quarta entrega
-* 0.3.0 - XX/XX/2023
-    * Terceira entrega
-* 0.2.0 - XX/XX/2023
-    * Segunda entrega 
+* 0.3.0 - 26/05/2023
+    * Terceira entrega : Modelo Word2Vec e Naive Bayes
+* 0.2.0 - 12/05/2023
+    * Segunda entrega : Pré-Processamento e Modelo Bag Of Words
 * 0.1.0 - 28/04/2023
     * Primeira entrega : Documentação Análise de Negócios e UX
 
