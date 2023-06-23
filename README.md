@@ -48,7 +48,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Instalação
 
-As informações completas sobre a instalação do projeto, incluindo um passo a passo detalhado, dependências e versões utilizadas, podem ser encontradas no arquivo "docs/t4_G5_V5_PLN_Instalação.pdf". Você pode acessar o documento através do seguinte link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/t4_G5_V5_PLN_Instala%C3%A7%C3%A3o.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
+As informações completas sobre a instalação do projeto, incluindo um passo a passo detalhado, dependências e versões utilizadas, podem ser encontradas no arquivo "docs/t4_G5_V5_PLN_Instalação.pdf". Você pode acessar o documento através do seguinte link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V5_PLN_Instalacao.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
 
 O arquivo PDF fornecerá todas as informações necessárias para realizar a instalação e configuração correta do projeto, garantindo que você tenha todas as dependências corretas e versões adequadas para o funcionamento adequado do sistema.
 
@@ -56,7 +56,7 @@ O arquivo PDF fornecerá todas as informações necessárias para realizar a ins
 ## 💻 Configuração de Desenvolvimento
 
 
-As configurações de desenvolvimento, incluindo informações sobre possíveis modificações no projeto no futuro, podem ser encontradas no link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/t4_G5_V5_PLN_Instala%C3%A7%C3%A3o.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
+As configurações de desenvolvimento, incluindo informações sobre possíveis modificações no projeto no futuro, podem ser encontradas no link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/T4_G5_V5_PLN_Instalacao.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
 
 Ao acessar o documento PDF, você encontrará detalhes sobre as configurações do projeto que podem ser personalizadas ou modificadas, proporcionando flexibilidade para adaptar o sistema de acordo com as necessidades futuras.
 
