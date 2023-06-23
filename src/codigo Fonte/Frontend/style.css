@@ -144,10 +144,10 @@ body, html {
 }
 
 .textoQuantDados{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: bold;
     margin-top: 25%;
-    margin-left: 5%;
+    text-align: center;
 }
 
 .quantDados{
@@ -155,7 +155,6 @@ body, html {
     margin-top: 1%;
     text-align: center;
     font-weight: bold;
-    margin-right: 5%;
 }
 
 /* Principal Sentimento */
@@ -187,7 +186,7 @@ body, html {
 .textoSentimentoPrincipal{
     font-size: 0.7rem;
     font-weight: bold;
-    margin-top: 22%;
+    margin-top: 23%;
     text-align: center;
 }
 
@@ -428,7 +427,7 @@ body, html {
     width: 1%;
     height: 2%;
     border-radius: 50%;
-    background-color: red; 
+    background-color: rgb(255, 255, 255); 
     position: absolute;
     margin-top: 0.5%;
     margin-left: 2%;
@@ -457,14 +456,14 @@ body, html {
     }
 
     .textoQuantDados{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-weight: bold;
         margin-top: 15%;
-        margin-left: 5%;
+        text-align: center;
     }
 
     .textoSentimentoPrincipal{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: bold;
         margin-top: 15%;
         text-align: center;
@@ -472,7 +471,7 @@ body, html {
 
     .quantSentimentoPrincipal{
         font-size: 1rem;
-        margin-top: 1%;
+        margin-top: 3%;
         text-align: center;
         font-weight: bold;
         margin-right: 5%;
