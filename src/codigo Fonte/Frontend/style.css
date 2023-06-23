@@ -353,6 +353,7 @@ body, html {
     margin-left: 10%;
     width: 100%;
     height: 70%;
+    margin-top: 3%;
 }
 
 .tituloGrafico7{
@@ -369,19 +370,6 @@ body, html {
     font-weight: bold;
     margin-top: 1%;
     text-align: center;
-}
-
-.alinhamentoTextoG7{
-    display: flex;
-}
-
-.textoG7{
-    width: 70%;
-}
-
-.botaoG7{
-    width: 25%;
-    margin-top: 2%;
 }
 
 #selectMesesG7{

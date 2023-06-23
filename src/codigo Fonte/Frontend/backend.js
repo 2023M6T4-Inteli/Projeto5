@@ -423,3 +423,30 @@ fetch('http://127.0.0.1:5000/dados-relacionados', {
 //   });
 // });
 
+
+function buscarPalavra(event) {
+  event.preventDefault(); // Evita o comportamento padrão de envio do formulário
+
+  const palavraInput = document.getElementById('lpalavra');
+  const palavra = palavraInput.value;
+
+  fetch('/buscar_palavra', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ palavra: palavra })
+  })
+  .then(response => response.json())
+  .then(data => {
+    const resultadoDiv = document.getElementById('resultado');
+    if (data.resultado) {
+      resultadoDiv.innerText = data.resultado;
+    } else if (data.erro) {
+      resultadoDiv.innerText = data.erro;
+    }
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+}

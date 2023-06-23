@@ -205,6 +205,8 @@ body, html {
     padding: 5px;
     border: 1px solid #D9D9D9;
     border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .botaoPesquisa{
@@ -218,6 +220,9 @@ body, html {
     border: 1px solid #082D6C;
     border-radius: 5px;
     float: right; 
+    text-align: center;
+    padding-top: 0.5%;
+    text-decoration: none;
 
 }
 
@@ -239,12 +244,20 @@ body, html {
 }
 
 .mencoes{
-    width: 25%;
+    width: 100%;
     margin-left: 2%;
     margin-bottom: 2%;
     background-color: #ffffff;
     border-radius: 8px;
 
+}
+
+.alinhamento{
+    width: 25%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
 .graficosInteracoes{
