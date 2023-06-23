@@ -6,6 +6,9 @@ from tensorflow.keras.models import load_model
 
 model = load_model("C:\\M6\\modelo_embedding_layer(keras).h5")
 
+# Função para calcular a média dos vetores
+def calcular_media(vetores):
+    return np.mean(vetores, axis=0)
 
 # Função para realizar a previsão
 def fazer_previsao(vetor_medio):
@@ -35,6 +38,17 @@ def main():
         st.write('Dados carregados:')
         st.write(df)
 
+        # Calcular a média dos vetores
+        vetor_medio = calcular_media(df.values[:, :50])
+
+        # Botão para realizar a previsão
+        if st.button('Prever'):
+            # Chamar a função de previsão com o vetor médio
+            resultado = fazer_previsao(vetor_medio)
+
+            # Exibir o resultado
+            st.write('O resultado da previsão é:')
+            st.write(resultado)
 
 # Executar o aplicativo
 if __name__ == '__main__':
