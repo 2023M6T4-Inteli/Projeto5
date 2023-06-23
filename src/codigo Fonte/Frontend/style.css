@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+}
+
+
+/* Criação do Menu */
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    background-color: #151515;
+    width: 15%;
+    height: 100%;
+    border-bottom-right-radius: 8%;
+    border-top-right-radius: 8%;
+}
+
+.logo{
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+}
+
+.menuTexto{
+    margin-top: 15%;
+    margin-left: 10%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.iconMenu{
+    width: 12%;
+}
+
+.textoMenu{
+    color: #ffffff;
+    font-size: 70%;
+    margin-left: 5%;
+}
+
+/* Criação Seção Principal */
+
+.introducaoDash{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    overflow: visible;
+    position: relative; 
+}
+
+.dashboard{
+    width: 85%;
+    height: 100%;
+}
+
+.tituloDash{
+    color: #151515;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.cardBoasVindas{
+    background: linear-gradient(#1681EC, #082D6C);
+    width: 55%;
+    height: 90%;
+    margin-left: 1%;
+    display: flex;
+    overflow: visible;
+    position: relative; 
+}
+
+.alinhamentoTextoCard{
+    width: 100%;
+}
+
+.textoCardPrincipal{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.textoCard{
+    color: #ffffff;
+    font-size: 0.55rem;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.cardHome {
+    width: 43%;
+    position: absolute;
+    left: 60%;
+    top: -25%; 
+}
+
+/* Quantidade de Comentários */
+
+.quantComentarios{
+    background-color: #ffffff;
+    width: 20.5%;
+    height: 90%;
+    margin-left: 1%;
+    border-radius: 8%;
+    display: flex;
+}
+
+.iconCard2{
+    background-color: #1A4FBA;
+    width: 35%;
+    height: 60%;
+    border-radius: 20%;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+.imgQuantDados{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.textoCard2, .textoCard3{
+    width: 70%;
+}
+
+.textoQuantDados{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.quantDados{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5%;
+}
+
+/* Principal Sentimento */
+
+.principalSentimento{
+    background-color: #ffffff;
+    width: 20.8%;
+    height: 90%;
+    margin-left: 0.5%;
+    border-radius: 8%;
+    display: flex;
+}
+
+.iconCard3{
+    background-color: #1681EC;
+    width: 35%;
+    height: 60%;
+    border-radius: 20%;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+.imgQuantSentimento{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.textoSentimentoPrincipal{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 22%;
+    text-align: center;
+}
+
+.quantSentimentoPrincipal{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5%;
+}
+
+
+/* Gráficos */
+
+.graficos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.g4567{
+    width: 85%;
+    height: 65%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.g45, .g67{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloGrafico{
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.subtituloGrafico{
+    color: #000000;
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+
+/* Gráfico Rosca */
+
+.g4 {
+    background-color: #ffffff;
+    width: 30%;
+    height: 95%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloGrafico4 {
+    color: #000000;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.subtituloGrafico4 {
+    color: #000000;
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+.tamanhoG4 {
+    margin-top: 2%;
+    width: 90%;
+    height: 70%;  
+}
+
+
+/* Gráfico Linha */
+
+.g5{
+    background-color: #fcfcfc;
+    width: 70%;
+    height: 95%;
+}
+
+.tamanhoG5{
+    margin-left: 1%;
+    width: 97%;
+    height: 75%;  
+}
+
+/* Gráfico Barra */
+
+.g6{
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+.tamanhoG6{
+    margin-left: 1.5%;
+    width: 28%;
+    height: 26.5%;
+    position: absolute; 
+    top: 68%;
+}
+
+.tituloGrafico6{
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.subtituloGrafico6{
+    color: #000000;
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.alinhamentoTextoG6{
+    display: flex;
+}
+
+.textoG6{
+    width: 70%;
+}
+
+.botaoG6{
+    width: 22%;
+    margin-top: 2%;
+}
+
+#selectMesesG6{
+    border-radius: 8%;
+    font-size: 0.6rem;
+    border: 1px solid #a7a7a7;
+    outline: none; 
+}
+
+/* Gráfico Dispersão */
+
+.g7{
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+}
+
+.tamanhoG7{
+    margin-left: 10%;
+    width: 100%;
+    height: 70%;
+}
+
+.tituloGrafico7{
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.subtituloGrafico7{
+    color: #000000;
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.alinhamentoTextoG7{
+    display: flex;
+}
+
+.textoG7{
+    width: 70%;
+}
+
+.botaoG7{
+    width: 25%;
+    margin-top: 2%;
+}
+
+#selectMesesG7{
+    border-radius: 8%;
+    font-size: 0.6rem;
+    border: 1px solid #a7a7a7;
+    outline: none; 
+}
+
+/* Top 10 Palavras */
+
+.g8{
+    background-color: #ffffff;
+    width: 23%;
+    height: 65%;
+    margin-right: 1%;
+}
+
+.tituloGrafico8{
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.top10Palavras{
+    margin-top: 5%;
+}
+
+.palavras1, .palavras2, .palavras3, .palavras4, .palavras5, .palavras6, .palavras7, .palavras8, .palavras9, .palavras10{
+    font-size: 0.8rem;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.alinhamentoPalavras{
+    display: flex;
+    align-items: center;
+}
+
+.circulo {
+    width: 1%;
+    height: 2%;
+    border-radius: 50%;
+    background-color: red; 
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 1919px) {
+    
+    .cardHome{
+        width: 35%;
+        left: 65%;
+        top: -12%; 
+    }
+
+    .iconCard2, .iconCard3{
+        width: 25%;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+
+    .imgQuantDados, .imgQuantSentimento{
+        width: 60%;
+        margin-top: 27%;
+    }
+
+    .textoQuantDados{
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .textoSentimentoPrincipal{
+        font-size: 0.6rem;
+        font-weight: bold;
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .quantSentimentoPrincipal{
+        font-size: 1rem;
+        margin-top: 1%;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 5%;
+    }
+    
+    .tamanhoG5{
+        margin-left: 5%;
+        width: 90%;
+        height: 70%;  
+    }
+
+    .botaoG6{
+        width: 25%;
+        margin-top: 2%;
+    }
+ 
+    .tamanhoG6{
+        margin-left: 1.5%;
+        width: 28%;
+        height: 25%;
+        position: absolute; 
+        top: 71%;
+    }
+ 
+    .tamanhoG7{
+        margin-left: 10%;
+        width: 100%;
+        height: 85%;
+    }
+}
+  

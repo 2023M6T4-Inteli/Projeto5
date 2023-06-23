@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #EAEAEA;
+}
+
+
+/* Criação do Menu */
+
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    background-color: #151515;
+    width: 15%;
+    height: 100%;
+    border-bottom-right-radius: 8%;
+    border-top-right-radius: 8%;
+}
+
+.logo{
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+}
+
+.menuTexto{
+    margin-top: 15%;
+    margin-left: 10%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.iconMenu{
+    width: 12%;
+}
+
+.textoMenu{
+    color: #ffffff;
+    font-size: 70%;
+    margin-left: 5%;
+}
+
+/* Criação Seção Principal */
+.dashboard{
+    width: 85%;
+    height: 100%;
+}
+
+.resultados{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.introducaoDash{
+    width: 71%;
+    height: 100%;
+    display: block;
+    overflow: visible;
+    position: relative; 
+}
+
+.tituloDash{
+    color: #151515;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.cardBoasVindas{
+    background: linear-gradient(#1681EC, #082D6C);
+    width: 98%;
+    height: 20%;
+    margin-left: 2%;
+    display: flex;
+    overflow: visible;
+    position: relative; 
+    margin-right: 1%;
+}
+
+.alinhamentoTextoCard{
+    width: 100%;
+}
+
+.textoCardPrincipal{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.textoCard{
+    color: #ffffff;
+    font-size: 0.55rem;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.cardHome {
+    width: 43%;
+    position: absolute;
+    left: 60%;
+    top: -15%; 
+}
+
+/* Top 10 Palavras Relevantes  */
+
+.palavrasRelevantes{
+    background-color: #ffffff;
+    width: 25%;
+    height: 88%;
+    border-radius: 2%;
+    display: block;
+    margin-left: 2%;
+
+}
+
+.secaoTitulo{
+    margin-top: 10%;
+}
+
+.tituloPalavrasRelevantes{
+    color: #636363;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.subtituloPalavrasRelevantes{
+    color: #636363;
+    font-size: 10px;
+    text-align: center;
+    margin: 2%;
+}
+
+.palRel{
+    color: #082D6C;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 5%;
+    padding: 2%;
+
+}
+
+.frequenciaPalavras{
+    display: flex;
+    color: #636363;
+    font-size: 12px;
+    margin: 2%;
+    text-align: center;
+}
+
+.clasFP{
+    width: 33%;
+    position: relative;
+    margin: 5%;
+}
+
+/*
+.clasFP:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 7px;
+    background-color: #082D6C;
+  }
+*/
+
+/* Análise */
+
+.formularioAnalise{
+    display: block;
+    margin-left: 2%;
+}
+
+.tituloPesquisar{
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+
+}
+
+.campoPesquisa{
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.botaoPesquisa{
+    display: block;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    width: 15%;
+    height: 35px;
+    color: #ffffff;
+    background-color: #082D6C;
+    border: 1px solid #082D6C;
+    border-radius: 5px;
+    float: right; 
+
+}
+
+/* PESQUISAR */
+
+.tituloPesquisar{
+    color: #636363;
+    font-size: 18px;
+}
+
+
+
+
+
+.resultadoAnalise{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.mencoes{
+    width: 25%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    border-radius: 8px;
+
+}
+
+.graficosInteracoes{
+    width: 70%;
+    background-color: #ffffff;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    border-radius: 8px;
+}
+
+
+/*Gráfico Barra*/
+
+.tamanhoG6{
+    margin-left: 1.5%;
+    width: 97%;
+    height: 75%;
+    top: 55%;
+}
+
+.tituloGrafico6{
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.subtituloGrafico6{
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.textoG6{
+    width: 100%;
+}
+
+
+/* Quantidade de menções*/
+
+.mencoes{
+    display: flex;
+}
+
+.iconCard2{
+    background-color: #1A4FBA;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin-left: 11%;
+    margin-top: 13%;
+}
+
+.imgQuantDados{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.textoCard2, .textoCard3{
+    width: 60%;
+}
+
+.textoQuantDados{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 25%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.quantDados{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 2%;
+
+}
