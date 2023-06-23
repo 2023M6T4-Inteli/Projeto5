@@ -4,7 +4,7 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# APP Linguagem Natural
+# Modelo de análise de sentimentos de comentários de campanhas de marketing do instagram do BTG Pactual
 
 ## NaturalFive
 
@@ -48,20 +48,25 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Instalação
 
-Acrescentar as informações necessárias para instalação do projeto, assim como as versões utilizadas (uso do projeto).
+As informações completas sobre a instalação do projeto, incluindo um passo a passo detalhado, dependências e versões utilizadas, podem ser encontradas no arquivo "docs/t4_G5_V5_PLN_Instalação.pdf". Você pode acessar o documento através do seguinte link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/t4_G5_V5_PLN_Instala%C3%A7%C3%A3o.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
+
+O arquivo PDF fornecerá todas as informações necessárias para realizar a instalação e configuração correta do projeto, garantindo que você tenha todas as dependências corretas e versões adequadas para o funcionamento adequado do sistema.
 
 
 ## 💻 Configuração de Desenvolvimento
 
-Acrescentar as informações necessárias para configuração de desenvolvimento do projeto (modificação do projeto).
+
+As configurações de desenvolvimento, incluindo informações sobre possíveis modificações no projeto no futuro, podem ser encontradas no link: <a href="https://github.com/2023M6T4-Inteli/Projeto5/blob/main/docs/t4_G5_V5_PLN_Instala%C3%A7%C3%A3o.pdf"> docs/t4_G5_V5_PLN_Instalação.pdf</a>.
+
+Ao acessar o documento PDF, você encontrará detalhes sobre as configurações do projeto que podem ser personalizadas ou modificadas, proporcionando flexibilidade para adaptar o sistema de acordo com as necessidades futuras.
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2023
-    * Quinta entrega
-* 0.4.0 - XX/XX/2023
-    * Quarta entrega
+* 0.5.0 - 23/06/2023
+    * Quinta entrega : Construção do dashboard e integração com o modelo
+* 0.4.0 - 07/06/2023
+    * Quarta entrega : Escolha do melhor modelo e aplicação de hiperparâmetros
 * 0.3.0 - 26/05/2023
     * Terceira entrega : Modelo Word2Vec e Naive Bayes
 * 0.2.0 - 12/05/2023
